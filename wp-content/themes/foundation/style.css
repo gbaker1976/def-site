@@ -26,6 +26,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 2.1 >= 1200px
  * 2.2 >= 900px
  * 2.3 >= 600px
+ * 2.3.1 - navigation
  * 2.4 >= 321px
  * 2.5 < 321px
  */
@@ -488,6 +489,7 @@ big {
 
 /* 2.3 >= 700px */
 @media screen and (min-width: 43.75em) {
+	/* 2.3.1 - navigation */
 	.site-header .menu-toggle {
 		display: none;
 	}
@@ -505,6 +507,27 @@ big {
 	}
 
 	.site-header .primary-menu li > a {
+		display: inline;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
+		display: inline;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle .screen-reader-text{
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children > ul {
+		display: none;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children.s-expanded > ul {
 		display: block;
 	}
 }
