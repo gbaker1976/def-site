@@ -486,9 +486,27 @@ big {
 
 }
 
-/* 2.3 >= 600px */
-@media screen and (min-width: 37.5em) {
+/* 2.3 >= 700px */
+@media screen and (min-width: 43.75em) {
+	.site-header .menu-toggle {
+		display: none;
+	}
 
+	.site-header .primary-menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-header .primary-menu li {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-header .primary-menu li > a {
+		display: block;
+	}
 }
 
 /* 2.4 >= 321px */
