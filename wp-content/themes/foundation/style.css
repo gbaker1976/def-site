@@ -474,6 +474,15 @@ big {
 	font-size: 125%;
 }
 
+.screen-reader-text{
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
 
 /* 2.0 - media queries */
 
@@ -512,15 +521,6 @@ big {
 
 	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
 		display: inline;
-	}
-
-	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle .screen-reader-text{
-		position: absolute;
-		left: -10000px;
-		top: auto;
-		width: 1px;
-		height: 1px;
-		overflow: hidden;
 	}
 
 	.site-header .primary-menu li.menu-item-has-children > ul {
