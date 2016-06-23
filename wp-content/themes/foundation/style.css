@@ -483,6 +483,11 @@ big {
 	overflow: hidden;
 }
 
+.site-branding,
+.site-header-menu {
+	display: inline-block;
+}
+
 
 /* 2.0 - media queries */
 
