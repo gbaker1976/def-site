@@ -537,8 +537,29 @@ big {
 	}
 
 	.site-content .billboard {
-		min-height: 600px;
+		min-height: 400px;
 		background-color: #5FBFE7;
+	}
+
+	.site-footer {
+		background-color: #666;
+		color: #fff;
+		padding-top: 1em;
+	}
+
+	.site-footer a {
+		color: #5FBFE7;
+	}
+
+	.site-footer .primary-menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-footer .primary-menu li {
+		margin: 0;
+		padding: 0;
 	}
 }
 
