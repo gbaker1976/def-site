@@ -522,6 +522,27 @@ big {
 
 	.site-header .primary-menu li > a {
 		display: inline;
+		color: #666;
+	}
+
+	.site-header .primary-menu li > a:hover {
+		color: #000;
+	}
+
+	.site-header .primary-menu li > button {
+		background-color: transparent;
+		position:relative;
+		vertical-align:middle;
+	}
+
+	.site-header .primary-menu li > button:before {
+		content: "\f0d7";
+		font-family: FontAwesome;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.site-header .primary-menu li > button:hover {
+		background-color: #ccc;
 	}
 
 	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
