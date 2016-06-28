@@ -535,6 +535,11 @@ big {
 	.site-header .primary-menu li.menu-item-has-children.s-expanded > ul {
 		display: block;
 	}
+
+	.site-content .billboard {
+		min-height: 600px;
+		background-color: #5FBFE7;
+	}
 }
 
 /* 2.4 >= 321px */
