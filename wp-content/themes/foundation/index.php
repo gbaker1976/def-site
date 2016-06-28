@@ -21,14 +21,6 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php
-				if ( is_front_page() && !is_home() ) :
-
-					get_template_part( 'billboard' );
-
-				endif;
-			?>
-
 			<?php if ( is_home() && ! is_front_page() ) : ?>
 				<header>
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
