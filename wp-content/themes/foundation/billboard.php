@@ -10,5 +10,6 @@
  * @subpackage Foundation
  * @since Foundation 1.0
  */
+?>
 
 <div class="billboard"></div>
