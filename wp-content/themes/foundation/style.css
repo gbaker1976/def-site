@@ -511,14 +511,11 @@ big {
 		color: #666;
 	}
 
-	.site-header .primary-menu li > a:hover {
-		color: #000;
-	}
-
 	.site-header .primary-menu li > button {
 		background-color: transparent;
-		position:relative;
-		vertical-align:middle;
+		position: relative;
+		vertical-align: middle;
+		padding: 0;
 	}
 
 	.site-header .primary-menu li > button:before {
@@ -543,9 +540,44 @@ big {
 		display: block;
 	}
 
+	.site-header .primary-menu li.menu-item-has-children.s-expanded > button:before {
+		content: "\f0d8";
+		font-family: FontAwesome;
+		-webkit-font-smoothing: antialiased;
+	}
+
 	.site-content .billboard {
-		min-height: 400px;
+		height: 400px;
+		overflow:hidden;
+		position:relative;
 		background-color: #5FBFE7;
+	}
+
+	.video-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+		background-position: center center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		   -moz-background-size: cover;
+				background-size: cover;
+	}
+
+	.video-bg video {
+		position: absolute;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		   -moz-transform: translate(-50%,-50%);
+		    	transform: translate(-50%,-50%);
 	}
 
 }
