@@ -33,8 +33,8 @@
 				screenReaderSpan = _this.find( '.screen-reader-text' );
 
 			e.preventDefault();
-			_this.toggleClass( 'toggled-on' );
-			_this.next( '.children, .sub-menu' ).toggleClass( 'toggled-on' );
+			_this.toggleClass( 's-expanded' );
+			_this.next( '.children, .sub-menu' ).toggleClass( 's-expanded' );
 
 			// jscs:disable
 			_this.attr( 'aria-expanded', _this.attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
