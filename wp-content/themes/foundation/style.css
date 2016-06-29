@@ -500,10 +500,14 @@ big {
 		padding: 0;
 	}
 
-	.site-header .primary-menu li {
+	.site-header .primary-menu > li {
 		display: inline-block;
 		margin: 0;
 		padding: 0;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children:active .sub-menu {
+		display:block;
 	}
 
 	.site-header .primary-menu li > a {
