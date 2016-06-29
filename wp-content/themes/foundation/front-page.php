@@ -17,10 +17,10 @@ get_header(); ?>
 
 		    <div class="billboard">
                 <div class="video-bg">
-            		<video autoplay muted loop poster="<?php get_template_directory_uri(); ?>/files/busy-new-york-intersection.jpg">
-            			<source src="<?php get_template_directory_uri(); ?>/files/busy-new-york-intersection.mp4" type="video/mp4">
-            			<source src="<?php get_template_directory_uri(); ?>/files/busy-new-york-intersection.webm" type="video/webm">
-            			<source src="<?php get_template_directory_uri(); ?>/files/busy-new-york-intersection.ogv" type="video/ogg">
+            		<video autoplay muted loop poster="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.jpg">
+            			<source src="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.mp4" type="video/mp4">
+            			<source src="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.webm" type="video/webm">
+            			<source src="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.ogv" type="video/ogg">
             		</video>
             	</div>
             </div>
