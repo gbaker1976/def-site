@@ -410,7 +410,6 @@ input[type="submit"][disabled]:focus {
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.046875em;
 	line-height: 1;
@@ -526,29 +525,29 @@ input[type="search"].search-field {
 	.site-header .primary-menu li > a {
 		display: inline;
 		color: #666;
+		text-decoration: none;
 	}
 
-	.site-header .primary-menu li > button {
+	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
+		display: inline;
 		background-color: transparent;
 		position: relative;
 		vertical-align: middle;
 		padding: 0;
-		margin-left: .3em;;
+		margin-left: .3em;
 		opacity: .5;
 	}
 
-	.site-header .primary-menu li > button:hover {
-		opacity:1;
-	}
-
-	.site-header .primary-menu li > button:before {
+	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle:before {
 		content: "\f0d7";
 		font-family: FontAwesome;
 		-webkit-font-smoothing: antialiased;
 	}
 
-	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
-		display: inline;
+	.site-header .primary-menu li.menu-item-has-children.s-expanded > button:before {
+		content: "\f0d8";
+		font-family: FontAwesome;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	.site-header .primary-menu li.menu-item-has-children > ul {
@@ -557,12 +556,6 @@ input[type="search"].search-field {
 
 	.site-header .primary-menu li.menu-item-has-children.s-expanded > ul {
 		display: block;
-	}
-
-	.site-header .primary-menu li.menu-item-has-children.s-expanded > button:before {
-		content: "\f0d8";
-		font-family: FontAwesome;
-		-webkit-font-smoothing: antialiased;
 	}
 
 	.site-content .billboard {
@@ -653,6 +646,7 @@ input[type="search"].search-field {
 
 	.site-footer a {
 		color: #5FBFE7;
+		text-decoration: none;
 	}
 
 	.site-footer .primary-menu,
