@@ -546,7 +546,7 @@ input[type="search"].search-field {
 	}
 
 	.site-footer a {
-		color: #5FBFE7;
+		color: #fff;
 		text-decoration: none;
 	}
 
@@ -555,6 +555,17 @@ input[type="search"].search-field {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
+	}
+
+	.site-footer .primary-menu > li {
+		display: inline-block;
+		margin: 0 1em;
+		vertical-align: top;
+		padding: 0;
+	}
+
+	.site-footer .primary-menu > li li a {
+		color: #5FBFE7;
 	}
 
 	.site-footer .primary-menu li {
