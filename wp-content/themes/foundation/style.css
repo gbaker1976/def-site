@@ -476,7 +476,7 @@ input[type="search"].search-field {
 
 /* 2.0 - media queries */
 
-/* all */
+/* 2.1 - base */
 @media screen {
 	.screen-reader-text{
 		position: absolute;
@@ -528,7 +528,7 @@ input[type="search"].search-field {
 	.feature-cards {
 		list-style-type: none;
 		margin: 0;
-		padding: 1em;
+		padding: 0;
 	}
 
 	.feature-cards .card {
@@ -571,7 +571,7 @@ input[type="search"].search-field {
 	}
 }
 
-/* 2.4 >= 321px */
+/* 2.2 >= 321px */
 @media screen and (min-width: 20.06em) {
 	.site-content .billboard {
 		height: 400px;
@@ -580,29 +580,10 @@ input[type="search"].search-field {
 	.video-bg {
 		display: none;
 	}
-
-	.feature-cards .card {
-		display: inline-block;
-	}
 }
 
-/* 2.3 >= 700px */
-@media screen and (min-width: 43.75em) {
-
-	.site-header .site-header-main {
-		position: relative;
-		min-height: 3em;
-		overflow: visible;
-		width: 100%;
-		display: inline-block;
-	}
-
-	.site-header .site-branding,
-	.site-header .site-header-menu {
-		display: block;
-		float: left;
-	}
-
+/* 2.3 >= 500 */
+@media screen and (min-width: 31.25em) {
 	.video-bg {
 		position: absolute;
 		top: 0;
@@ -628,9 +609,12 @@ input[type="search"].search-field {
 		opacity: 0.2;
 		-webkit-transform: translate(-50%,-50%);
 		   -moz-transform: translate(-50%,-50%);
-		    	transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);
 	}
+}
 
+/* 2.3 >= 600 */
+@media screen and (min-width: 37.5em) {
 	.feature-cards {
 		margin: 1em;
 		padding: 0;
@@ -642,10 +626,28 @@ input[type="search"].search-field {
 		min-width: 25%;
 		min-height: 20em;
 	}
+}
+
+/* 2.4 >= 700px */
+@media screen and (min-width: 43.75em) {
+
+	.site-header .site-header-main {
+		position: relative;
+		min-height: 3em;
+		overflow: visible;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.site-header .site-branding,
+	.site-header .site-header-menu {
+		display: block;
+		float: left;
+	}
 
 }
 
-/* 2.2 >= 900px */
+/* 2.5 >= 900px */
 @media screen and (min-width: 56.25em) {
 
 	.site-header .menu-toggle {
@@ -712,7 +714,7 @@ input[type="search"].search-field {
 	}
 }
 
-/* 2.1 >= 1200px */
+/* 2.6 >= 1200px */
 @media screen and (min-width: 75em) {
 	.site-header .site-header-menu {
 		margin: 1em 0 0 10em;
