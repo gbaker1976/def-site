@@ -494,6 +494,10 @@ input[type="search"].search-field {
 
 	.site-header .menu-toggle {
 		display: block;
+		float: right;
+		margin: 1.5em 1em 0 0;
+		background-color: #ccc;
+		color: #fff;
 	}
 
 	.site-header .menu-toggle .icon:before {
