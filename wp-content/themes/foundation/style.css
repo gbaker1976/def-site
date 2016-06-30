@@ -635,6 +635,10 @@ input[type="search"].search-field {
 		display: none;
 	}
 
+	.site-header .menu-toggle span:before {
+		content: "";
+	}
+
 	.site-header .site-header-menu {
 		margin: 1em 0 0 2em;
 		float: left;
