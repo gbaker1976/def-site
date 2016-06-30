@@ -500,6 +500,10 @@ input[type="search"].search-field {
 		color: #fff;
 	}
 
+	.site-header .menu-toggle .icon {
+		font-style: normal;
+	}
+
 	.site-header .menu-toggle .icon:before {
 		content: "\f0c9";
 		font-family: FontAwesome;
