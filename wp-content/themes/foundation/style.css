@@ -636,7 +636,7 @@ input[type="search"].search-field {
 	}
 
 	.feature-cards {
-		margin: 1em;
+		margin: 2em auto 2em auto;
 		padding: 0;
 	}
 
@@ -726,7 +726,7 @@ input[type="search"].search-field {
 	}
 
 	.feature-cards .card {
-		margin: 0 2em 0 0;
+		margin: 0 2.5em 0 2.5em;
 	}
 }
 
