@@ -496,6 +496,12 @@ input[type="search"].search-field {
 		display: block;
 	}
 
+	.site-header .menu-toggle span:before {
+		content: "\f0c9";
+		font-family: FontAwesome;
+		-webkit-font-smoothing: antialiased;
+	}
+
 	.site-header .primary-menu {
 		display: none;
 		list-style-type: none;
