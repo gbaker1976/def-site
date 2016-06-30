@@ -496,7 +496,9 @@ input[type="search"].search-field {
 	.site-header .site-header-main {
 		position: relative;
 		min-height: 3em;
-		overflow: auto;
+		overflow: visible;
+		width: 100%;
+		display: inline-block;
 	}
 
 	.site-header .site-branding,
