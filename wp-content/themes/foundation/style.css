@@ -561,10 +561,6 @@ input[type="search"].search-field {
 
 /* 2.3 >= 700px */
 @media screen and (min-width: 43.75em) {
-	/* 2.3.1 - navigation */
-	.site-header .menu-toggle {
-		display: none;
-	}
 
 	.site-header .site-header-main {
 		position: relative;
@@ -629,8 +625,12 @@ input[type="search"].search-field {
 /* 2.2 >= 900px */
 @media screen and (min-width: 56.25em) {
 
+	.site-header .menu-toggle {
+		display: none;
+	}
+
 	.site-header .site-header-menu {
-		margin: 1em 0 0 10em;
+		margin: 1em 0 0 2em;
 		float: left;
 	}
 
@@ -687,5 +687,7 @@ input[type="search"].search-field {
 
 /* 2.1 >= 1200px */
 @media screen and (min-width: 75em) {
-
+	.site-header .site-header-menu {
+		margin: 1em 0 0 10em;
+	}
 }
