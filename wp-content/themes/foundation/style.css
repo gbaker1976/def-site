@@ -714,6 +714,15 @@ input[type="search"].search-field {
 		position: absolute;
 		top: 100%;
 		z-index: 1000;
+		list-style: none;
+		margin: 0;
+		padding: 1em;
+		background: #26508C;
+		border-radius: 5px;
+	}
+
+	.site-header .primary-menu li.menu-item-has-children > ul.s-expanded a {
+		color: #fff;
 	}
 
 	.feature-cards .card {
