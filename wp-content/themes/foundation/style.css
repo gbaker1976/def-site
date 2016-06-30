@@ -724,10 +724,6 @@ input[type="search"].search-field {
 	.site-header .primary-menu li.menu-item-has-children > ul.s-expanded a {
 		color: #fff;
 	}
-
-	.feature-cards .card {
-		margin: 0 2.5em 0 2.5em;
-	}
 }
 
 /* 2.6 >= 1200px */
