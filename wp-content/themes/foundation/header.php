@@ -34,7 +34,7 @@
 				</div><!-- .site-branding -->
 
 				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-					<button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text"><?php _e( 'Menu', 'foundation' ); ?></span></button>
+					<button id="menu-toggle" class="menu-toggle"><i class="icon"></i><span class="screen-reader-text"><?php _e( 'Menu', 'foundation' ); ?></span></button>
 
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
