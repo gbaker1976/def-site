@@ -494,6 +494,23 @@ big {
 		display: none;
 	}
 
+	.site-header .site-header-main {
+		position: relative;
+		min-height: 3em;
+		overflow: auto;
+	}
+
+	.site-header .site-branding,
+	.site-header .site-header-menu {
+		display: block;
+		float: left;
+	}
+
+	.site-header .site-header-menu {
+		margin: 1em 0 0 10em;
+		float: left;
+	}
+
 	.site-header .primary-menu {
 		list-style-type: none;
 		margin: 0;
@@ -502,7 +519,7 @@ big {
 
 	.site-header .primary-menu > li {
 		display: inline-block;
-		margin: 0;
+		margin: 0 1em 0 0;
 		padding: 0;
 	}
 
@@ -516,16 +533,18 @@ big {
 		position: relative;
 		vertical-align: middle;
 		padding: 0;
+		margin-left: .3em;;
+		opacity: .5;
+	}
+
+	.site-header .primary-menu li > button:hover {
+		opacity:1;
 	}
 
 	.site-header .primary-menu li > button:before {
 		content: "\f0d7";
 		font-family: FontAwesome;
 		-webkit-font-smoothing: antialiased;
-	}
-
-	.site-header .primary-menu li > button:hover {
-		background-color: #ccc;
 	}
 
 	.site-header .primary-menu li.menu-item-has-children > .dropdown-toggle {
@@ -575,6 +594,7 @@ big {
 		height: auto;
 		top: 50%;
 		left: 50%;
+		opacity: 0.2;
 		-webkit-transform: translate(-50%,-50%);
 		   -moz-transform: translate(-50%,-50%);
 		    	transform: translate(-50%,-50%);
