@@ -245,91 +245,6 @@ p > video {
 	margin-bottom: 0;
 }
 
-/* 1.1 - typography */
-input {
-	line-height: normal;
-}
-
-button,
-button[disabled]:hover,
-button[disabled]:focus,
-input[type="button"],
-input[type="button"][disabled]:hover,
-input[type="button"][disabled]:focus,
-input[type="reset"],
-input[type="reset"][disabled]:hover,
-input[type="reset"][disabled]:focus,
-input[type="submit"],
-input[type="submit"][disabled]:hover,
-input[type="submit"][disabled]:focus {
-	background: #1a1a1a;
-	border: 0;
-	border-radius: 2px;
-	color: #fff;
-	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-weight: 700;
-	letter-spacing: 0.046875em;
-	line-height: 1;
-	padding: 0.84375em 0.875em 0.78125em;
-	text-transform: uppercase;
-}
-
-button:hover,
-button:focus,
-input[type="button"]:hover,
-input[type="button"]:focus,
-input[type="reset"]:hover,
-input[type="reset"]:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-	background: #007acc;
-}
-
-button:focus,
-input[type="button"]:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus {
-	outline: thin dotted;
-	outline-offset: -4px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="tel"],
-input[type="number"],
-textarea {
-	background: #f7f7f7;
-	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-	border: 1px solid #d1d1d1;
-	border-radius: 2px;
-	color: #686868;
-	padding: 0.625em 0.4375em;
-	width: 100%;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="number"]:focus,
-textarea:focus {
-	background-color: #fff;
-	border-color: #007acc;
-	color: #1a1a1a;
-	outline: 0;
-}
-
-input[type="search"].search-field {
-	border-radius: 2px 0 0 2px;
-	width: -webkit-calc(100% - 42px);
-	width: calc(100% - 42px);
-}
-
 /* 1.2 - typography */
 body,
 button,
@@ -337,7 +252,7 @@ input,
 select,
 textarea {
 	color: #1a1a1a;
-	font-family: Merriweather, Georgia, serif;
+	font-family: Arial, serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.75;
@@ -474,6 +389,91 @@ big {
 	font-size: 125%;
 }
 
+/* 1.2 - forms */
+input {
+	line-height: normal;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+	background: #1a1a1a;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	background: #007acc;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: thin dotted;
+	outline-offset: -4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	background: #f7f7f7;
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	color: #686868;
+	padding: 0.625em 0.4375em;
+	width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	background-color: #fff;
+	border-color: #007acc;
+	color: #1a1a1a;
+	outline: 0;
+}
+
+input[type="search"].search-field {
+	border-radius: 2px 0 0 2px;
+	width: -webkit-calc(100% - 42px);
+	width: calc(100% - 42px);
+}
+
 
 /* 2.0 - media queries */
 
@@ -598,6 +598,22 @@ big {
 		-webkit-transform: translate(-50%,-50%);
 		   -moz-transform: translate(-50%,-50%);
 		    	transform: translate(-50%,-50%);
+	}
+
+	.feature-cards {
+		list-style-type: none;
+		margin: 1em;
+		padding: 0;
+	}
+
+	.feature-cards .card {
+		border-radius: .5em;
+		background: #f6f6f6;
+		display: inline-block;
+		padding: 1em;
+		margin: 0 2em 0 2em;
+		min-width: 25%;
+		min-height: 20em;
 	}
 
 }

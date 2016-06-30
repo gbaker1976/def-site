@@ -25,6 +25,33 @@ get_header(); ?>
             	</div>
             </div>
 
+            <ul class="feature-cards">
+                <li class="card">
+                    <header>
+                        <h3>Feature One</h3>
+                    </header>
+                    <div>
+                        Some feature text...
+                    </div>
+                </li>
+                <li class="card">
+                    <header>
+                        <h3>Feature Two</h3>
+                    </header>
+                    <div>
+                        Some feature text...
+                    </div>
+                </li>
+                <li class="card">
+                    <header>
+                        <h3>Feature Three</h3>
+                    </header>
+                    <div>
+                        Some feature text...
+                    </div>
+                </li>
+            </ul>
+
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
 
