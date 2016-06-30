@@ -513,6 +513,7 @@ input[type="search"].search-field {
 	}
 
 	.site-header .primary-menu {
+		display: block;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
@@ -617,7 +618,7 @@ input[type="search"].search-field {
 		display: block;
 	}
 
-	.site-header .site-header-main {
+	.site-header .primary-menu {
 		display: none;
 	}
 
