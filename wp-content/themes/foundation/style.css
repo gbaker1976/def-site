@@ -519,6 +519,15 @@ input[type="search"].search-field {
 		position: relative;
 	}
 
+	.page:not(.home) .site-content .entry-content {
+		margin:0 2em;
+	}
+
+	.page:not(.home) .site-content .entry-header {
+		background: #5FBFE7;
+		color: #26508C;
+	}
+
 	.site-content .billboard {
 		overflow:hidden;
 		position:relative;
@@ -543,6 +552,10 @@ input[type="search"].search-field {
 		background-color: #666;
 		color: #fff;
 		padding-top: 1em;
+	}
+
+	.site-footer .footer-wrapper {
+		margin: 0 2em;
 	}
 
 	.site-footer a {
