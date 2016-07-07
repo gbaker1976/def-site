@@ -33,7 +33,7 @@
 				screenReaderSpan = _this.find( '.screen-reader-text' );
 
 			e.preventDefault();
-			$(_this, _this.parent()).toggleClass( 's-expanded' );
+			$([_this, _this.parent()]).toggleClass( 's-expanded' );
 			_this.next( '.children, .sub-menu' ).toggleClass( 's-expanded' );
 
 			// jscs:disable
