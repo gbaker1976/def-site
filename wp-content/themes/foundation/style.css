@@ -558,6 +558,7 @@ input[type="search"].search-field {
 
 	.page:not(.home) .site-content .entry-header {
 		padding: 0.7em 0;
+		margin-bottom: 2em;
 	}
 
 	.page:not(.home) .site-content .entry-header .entry-title {
