@@ -521,10 +521,15 @@ input[type="search"].search-field {
 
 	/* donate button */
 	.menu-item-2362 {
-		border-radius: 12px;
+		border-radius: 100px;
 		background: #8EE530;
 		color: #fff;
 		display: none;
+		padding: 1em;
+	}
+	.menu-item-2362,
+	.menu-item-2362 a {
+		color: rgba(0,0,0,0.3);
 	}
 	/* end donate button */
 
