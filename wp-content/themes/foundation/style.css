@@ -31,6 +31,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 2.5 < 321px
  */
 
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed|Slabo+27px';
+
 /* 1.0 - resets */
 html {
 	font-family: sans-serif;
@@ -478,6 +480,10 @@ input[type="search"].search-field {
 
 /* 2.1 - base */
 @media screen {
+	body {
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
 	.screen-reader-text{
 		position: absolute;
 		left: -10000px;
@@ -546,12 +552,21 @@ input[type="search"].search-field {
 
 	.page:not(.home) .site-content .entry-header .entry-title {
 		margin: 0 0 0 1.4em;
+		font-family: 'Slabo 27px', serif;
 	}
 
 	.site-content .billboard {
 		overflow:hidden;
 		position:relative;
 		background-color: #5FBFE7;
+	}
+
+	.site-content .billboard {
+		font-family: 'Slabo 27px', serif;
+	}
+
+	.site-content .billboard .title {
+		font-size: 5em;
 	}
 
 	.feature-cards {
