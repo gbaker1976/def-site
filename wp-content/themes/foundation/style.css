@@ -541,6 +541,11 @@ input[type="search"].search-field {
 	.page:not(.home) .site-content .entry-header {
 		background: #5FBFE7;
 		color: #26508C;
+		padding: 0.7em 0;
+	}
+
+	.page:not(.home) .site-content .entry-header .entry-title {
+		margin: 0 0 0 1.4em;
 	}
 
 	.site-content .billboard {
