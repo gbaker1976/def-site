@@ -674,6 +674,10 @@ input[type="search"].search-field {
 		float: left;
 	}
 
+	.site-header .primary-menu > .menu-item-2362 {
+		margin-left: 0;
+	}
+
 	.feature-cards {
 		margin: 2em auto 2em auto;
 		padding: 0;
@@ -717,6 +721,7 @@ input[type="search"].search-field {
 
 	.site-header .primary-menu > .menu-item-2362 {
 		display: inline-block;
+		margin-left: 2em;
 	}
 
 	.site-header .primary-menu li > a {
