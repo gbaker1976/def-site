@@ -695,10 +695,6 @@ input[type="search"].search-field {
 		display: none;
 	}
 
-	.menu-item-2362 {
-		display: inline-block;
-	}
-
 	.site-header .menu-toggle .icon:before {
 		content: "";
 	}
@@ -716,6 +712,10 @@ input[type="search"].search-field {
 		display: inline-block;
 		margin: 0 1em 0 0;
 		padding: 0;
+	}
+
+	.site-header .primary-menu > .menu-item-2362 {
+		display: inline-block;
 	}
 
 	.site-header .primary-menu li > a {
