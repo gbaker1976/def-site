@@ -519,6 +519,15 @@ input[type="search"].search-field {
 		position: relative;
 	}
 
+	/* donate button */
+	.menu-item-2362 {
+		border-radius: 12px;
+		background: #8EE530;
+		color: #fff;
+		display: none;
+	}
+	/* end donate button */
+
 	.page:not(.home) .site-content .entry-content {
 		margin:0 2em;
 	}
@@ -679,6 +688,10 @@ input[type="search"].search-field {
 
 	.site-header .menu-toggle {
 		display: none;
+	}
+
+	.menu-item-2362 {
+		display: inline-block;
 	}
 
 	.site-header .menu-toggle .icon:before {
