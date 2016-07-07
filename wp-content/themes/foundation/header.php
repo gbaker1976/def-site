@@ -28,10 +28,10 @@
 
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-header-main">
-				<div class="site-branding">
+				<a href="/" class="site-branding">
 					<!-- <?php foundation_the_custom_logo(); ?> -->
 					<img src="<?php echo get_template_directory_uri(); ?>/files/logo.png" />
-				</div><!-- .site-branding -->
+				</a><!-- .site-branding -->
 
 				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
 					<button id="menu-toggle" class="menu-toggle"><i class="icon"></i><span class="screen-reader-text"><?php _e( 'Menu', 'foundation' ); ?></span></button>
