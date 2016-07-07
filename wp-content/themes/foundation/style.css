@@ -544,21 +544,24 @@ input[type="search"].search-field {
 		margin:0 2em;
 	}
 
-	.page:not(.home) .site-content .entry-header {
+	.page:not(.home) .site-content .entry-header,
+	.site-content .billboard {
 		background: #5FBFE7;
 		color: #26508C;
+		font-family: 'Slabo 27px', serif;
+	}
+
+	.page:not(.home) .site-content .entry-header {
 		padding: 0.7em 0;
 	}
 
 	.page:not(.home) .site-content .entry-header .entry-title {
 		margin: 0 0 0 1.4em;
-		font-family: 'Slabo 27px', serif;
 	}
 
 	.site-content .billboard {
 		overflow:hidden;
 		position:relative;
-		background-color: #5FBFE7;
 	}
 
 	.site-content .billboard .billboard-title {
