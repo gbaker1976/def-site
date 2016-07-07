@@ -595,19 +595,17 @@ input[type="search"].search-field {
 		margin: 0 1em;
 		vertical-align: top;
 		padding: 0;
+		min-width: 10em;
 	}
 
 	.site-footer .primary-menu > li li a {
 		color: #5FBFE7;
+		font-size: 0.8em;
 	}
 
 	.site-footer .primary-menu li {
 		margin: 0;
 		padding: 0;
-	}
-
-	.site-footer .primary-menu > li > ul {
-		margin-left: 0.5em;
 	}
 
 	.site-footer .primary-menu li > button {
