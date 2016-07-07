@@ -48,8 +48,7 @@
 						 */
 						do_action( 'foundation_credits' );
 					?>
-					<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'foundation' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'foundation' ), 'WordPress' ); ?></a>
+					
 				</div><!-- .site-info -->
 			</div>
 		</footer><!-- .site-footer -->
