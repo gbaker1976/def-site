@@ -16,7 +16,6 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		    <div class="billboard">
-				<h1 class="billboard-title">Where Learning Becomes Life</h1>
                 <div class="video-bg">
             		<video autoplay muted loop poster="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.jpg">
             			<source src="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.mp4" type="video/mp4">
@@ -24,6 +23,7 @@ get_header(); ?>
             			<source src="<?php echo get_template_directory_uri(); ?>/files/busy-new-york-intersection.ogv" type="video/ogg">
             		</video>
             	</div>
+				<h1 class="billboard-title">Where Learning Becomes Life</h1>
             </div>
 
             <ul class="feature-cards">

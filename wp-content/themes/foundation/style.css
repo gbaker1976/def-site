@@ -565,8 +565,10 @@ input[type="search"].search-field {
 	}
 
 	.site-content .billboard .billboard-title {
-		font-family: 'Slabo 27px', serif;
 		font-size: 5em;
+		margin: 0.5em 0 0 1em;
+		max-width: 50%;
+		line-height: 1em;
 	}
 
 	.feature-cards {
