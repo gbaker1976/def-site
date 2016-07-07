@@ -589,11 +589,7 @@ input[type="search"].search-field {
 	.site-footer {
 		background-color: #666;
 		color: #fff;
-		padding-top: 1em;
-	}
-
-	.site-footer .footer-wrapper {
-		margin: 0 2em;
+		padding: 2em;
 	}
 
 	.site-footer a {
