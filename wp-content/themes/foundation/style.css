@@ -540,6 +540,11 @@ input[type="search"].search-field {
 	}
 	/* end donate button */
 
+	.entry-content {
+		position: relative;
+		overflow: hidden;
+	}
+
 	.page:not(.home) .site-content .entry-content {
 		margin:0 2em;
 	}
@@ -583,6 +588,10 @@ input[type="search"].search-field {
 		display: block;
 		padding: 1em;
 		margin: 0;
+	}
+
+	.contact-form {
+		margin-bottom: 2em;
 	}
 
 	/* footer */
@@ -706,6 +715,17 @@ input[type="search"].search-field {
 		margin: 0 2.5% 0 2.5%;
 		min-width: 25%;
 		min-height: 20em;
+	}
+
+	.contact-form,
+	.contact-info {
+		display: block;
+		width: 45%;
+		float: left;
+	}
+
+	.contact-info {
+		float: right;
 	}
 
 }
