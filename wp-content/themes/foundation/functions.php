@@ -186,39 +186,22 @@ add_action( 'widgets_init', 'foundation_widgets_init' );
 
 if ( ! function_exists( 'foundation_fonts_url' ) ) :
 /**
- * Register Google fonts for Twenty Sixteen.
+ * Register Google fonts for Foundation.
  *
  * Create your own foundation_fonts_url() function to override in a child theme.
  *
- * @since Twenty Sixteen 1.0
+ * @since Foundation 1.0
  *
  * @return string Google fonts URL for the theme.
  */
 function foundation_fonts_url() {
 	$fonts_url = '';
-	$fonts     = array();
-	$subsets   = 'latin,latin-ext';
-
-	/* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-	if ( 'off' !== _x( 'on', 'Merriweather font: on or off', 'foundation' ) ) {
-		$fonts[] = 'Merriweather:400,700,900,400italic,700italic,900italic';
-	}
-
-	/* translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language. */
-	if ( 'off' !== _x( 'on', 'Montserrat font: on or off', 'foundation' ) ) {
-		$fonts[] = 'Montserrat:400,700';
-	}
-
-	/* translators: If there are characters in your language that are not supported by Inconsolata, translate this to 'off'. Do not translate into your own language. */
-	if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'foundation' ) ) {
-		$fonts[] = 'Inconsolata:400';
-	}
+	$fonts     = array('Roboto+Condensed', 'Slabo+27px');
 
 	if ( $fonts ) {
 		$fonts_url = add_query_arg( array(
 			'family' => urlencode( implode( '|', $fonts ) ),
-			'subset' => urlencode( $subsets ),
-		), 'https://fonts.googleapis.com/css' );
+		), '//fonts.googleapis.com/css' );
 	}
 
 	return $fonts_url;
@@ -244,7 +227,7 @@ add_action( 'wp_head', 'foundation_javascript_detection', 0 );
  */
 function foundation_scripts() {
 	// Add custom fonts, used in the main stylesheet.
-	//wp_enqueue_style( 'foundation-fonts', foundation_fonts_url(), array(), null );
+	wp_enqueue_style( 'foundation-fonts', foundation_fonts_url(), array(), null );
 
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/font-awesome/css/font-awesome.min.css', array(), '4.6.3' );
