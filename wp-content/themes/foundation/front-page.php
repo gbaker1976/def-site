@@ -25,7 +25,7 @@ get_header(); ?>
             	</div>
 				<h1 class="billboard-title">Where Learning Becomes Life</h1>
             </div>
-			<div>
+			<div class="billboard-trailer">
 				<h2>Programs for At-Risk Central Indiana Students in Grades 8-12</h2>
 				<p>
 					We offer programs that provide hands-on experience to support STEM
