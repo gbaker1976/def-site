@@ -22,7 +22,10 @@
 			var _this = $( this );
 			var screenReaderSpan = _this.find( '.screen-reader-text' );
 
-			e.preventDefault();
+			if (e) {
+				e.preventDefault();
+				e.stopPropagation();
+			}
 
 			container.find( '.s-exanded' ).toggleClass( 's-expanded' );
 
