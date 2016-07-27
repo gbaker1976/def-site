@@ -49,7 +49,7 @@
 		container.find( '.dropdown-toggle' ).click( dropdownToggleHandler );
 
 		$(document.body).click( function(){
-			dropdownToggleHandler.call( container.find( '.s-expanded .dropdown-toggle' ) );
+			container.find( '.s-expanded' ).removeClass( 's-expanded' );
 		});
 	}
 	initMainNavigation( $( '.main-navigation' ) );
