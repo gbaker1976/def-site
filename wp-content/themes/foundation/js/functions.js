@@ -27,6 +27,8 @@
 				e.stopPropagation();
 			}
 
+			container.find( '.s-expanded' ).removeClass( 's-expanded' );
+
 			$([_this, _this.parent(), _this.next( '.children, .sub-menu' )]).toggleClass( 's-expanded' );
 
 			// jscs:disable
