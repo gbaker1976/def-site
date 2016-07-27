@@ -589,6 +589,7 @@ input[type="search"].search-field {
 		display: block;
 		padding: 1em;
 		margin: 0;
+		vertical-align:top;
 	}
 
 	.contact-form,
@@ -747,7 +748,7 @@ input[type="search"].search-field {
 		display: inline-block;
 		border-radius: .5em;
 		margin: 0 2.5% 0 2.5%;
-		min-width: 25%;
+		width: 25%;
 		min-height: 20em;
 	}
 
