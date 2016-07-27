@@ -18,6 +18,21 @@
 			'class': 'screen-reader-text',
 			text: screenReaderText.expand
 		} ) );
+		var dropdownToggleHandler = function( e ) {
+			var _this = $( this );
+			var screenReaderSpan = _this.find( '.screen-reader-text' );
+
+			e.preventDefault();
+
+			container.find( '.s-exanded' ).toggleClass( 's-expanded' );
+
+			$([_this, _this.parent(), _this.next( '.children, .sub-menu' )]).toggleClass( 's-expanded' );
+
+			// jscs:disable
+			_this.attr( 'aria-expanded', _this.attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
+			// jscs:enable
+			screenReaderSpan.text( screenReaderSpan.text() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
+		};
 
 		container.find( '.menu-item-has-children > a' ).after( dropdownToggle );
 
@@ -28,19 +43,11 @@
 		// Add menu items with submenus to aria-haspopup="true".
 		container.find( '.menu-item-has-children' ).attr( 'aria-haspopup', 'true' );
 
-		container.find( '.dropdown-toggle' ).click( function( e ) {
-			var _this            = $( this ),
-				screenReaderSpan = _this.find( '.screen-reader-text' );
+		container.find( '.dropdown-toggle' ).click( dropdownToggleHandler );
 
-			e.preventDefault();
-			$([_this, _this.parent()]).toggleClass( 's-expanded' );
-			_this.next( '.children, .sub-menu' ).toggleClass( 's-expanded' );
-
-			// jscs:disable
-			_this.attr( 'aria-expanded', _this.attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
-			// jscs:enable
-			screenReaderSpan.text( screenReaderSpan.text() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
-		} );
+		$(document.body).click( function(){
+			dropdownToggleHandler.call( container.find( '.s-exanded .dropdown-toggle' ) );
+		});
 	}
 	initMainNavigation( $( '.main-navigation' ) );
 
