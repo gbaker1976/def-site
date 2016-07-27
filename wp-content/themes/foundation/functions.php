@@ -244,7 +244,7 @@ add_action( 'wp_head', 'foundation_javascript_detection', 0 );
  */
 function foundation_scripts() {
 	// Add custom fonts, used in the main stylesheet.
-	wp_enqueue_style( 'foundation-fonts', foundation_fonts_url(), array(), null );
+	//wp_enqueue_style( 'foundation-fonts', foundation_fonts_url(), array(), null );
 
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/font-awesome/css/font-awesome.min.css', array(), '4.6.3' );
