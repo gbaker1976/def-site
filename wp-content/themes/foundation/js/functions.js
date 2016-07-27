@@ -21,15 +21,23 @@
 		var dropdownToggleHandler = function( e ) {
 			var _this = $( this );
 			var screenReaderSpan = _this.find( '.screen-reader-text' );
+			var parent = _this.parent();
 
 			if (e) {
 				e.preventDefault();
 				e.stopPropagation();
 			}
 
-			container.find( '.s-expanded' ).removeClass( 's-expanded' );
+			$([
+				parent.sibling( '.s-expanded' ),
+				parent.sibling( '.s-expanded' ).find( '.children, .sub-menu' )
+			]).removeClass( 's-expanded' );
 
-			$([_this, _this.parent(), _this.next( '.children, .sub-menu' )]).toggleClass( 's-expanded' );
+			$([
+				_this,
+				parent,
+				_this.next( '.children, .sub-menu' )
+			]).toggleClass( 's-expanded' );
 
 			// jscs:disable
 			_this.attr( 'aria-expanded', _this.attr( 'aria-expanded' ) === 'false' ? 'true' : 'false' );
