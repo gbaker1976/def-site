@@ -578,6 +578,10 @@ input[type="search"].search-field {
 		position: absolute;
 	}
 
+	.billboard-trailer {
+		text-align: center;
+	}
+
 	.feature-cards {
 		list-style-type: none;
 		margin: 0;
@@ -737,6 +741,15 @@ input[type="search"].search-field {
 
 	.site-header .primary-menu > .menu-item-2362 {
 		margin-left: 0;
+	}
+
+	.billboard-trailer {
+		width: 90%;
+		margin: 1em auto;
+	}
+
+	.billboard-trailer h2 {
+		font-size:2em;
 	}
 
 	.feature-cards {
