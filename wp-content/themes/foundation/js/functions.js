@@ -27,7 +27,7 @@
 				e.stopPropagation();
 			}
 
-			container.find( '.s-exanded' ).toggleClass( 's-expanded' );
+			container.find( '.s-expanded' ).toggleClass( 's-expanded' );
 
 			$([_this, _this.parent(), _this.next( '.children, .sub-menu' )]).toggleClass( 's-expanded' );
 
@@ -49,7 +49,7 @@
 		container.find( '.dropdown-toggle' ).click( dropdownToggleHandler );
 
 		$(document.body).click( function(){
-			dropdownToggleHandler.call( container.find( '.s-exanded .dropdown-toggle' ) );
+			dropdownToggleHandler.call( container.find( '.s-expanded .dropdown-toggle' ) );
 		});
 	}
 	initMainNavigation( $( '.main-navigation' ) );
