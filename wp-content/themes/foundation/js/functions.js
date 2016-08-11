@@ -29,8 +29,8 @@
 			}
 
 			$([
-				parent.sibling( '.s-expanded' ),
-				parent.sibling( '.s-expanded' ).find( '.children, .sub-menu' )
+				parent.siblings( '.s-expanded' ),
+				parent.siblings( '.s-expanded' ).find( '.children, .sub-menu' )
 			]).removeClass( 's-expanded' );
 
 			$([
