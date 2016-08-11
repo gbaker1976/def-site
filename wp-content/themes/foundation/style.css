@@ -640,6 +640,10 @@ input[type="search"].search-field {
 		vertical-align:top;
 	}
 
+	section.program {
+		margin: 0 0 2em 0;
+	}
+
 	.figure-image {
 		display: none;
 		width: 300px;
@@ -649,10 +653,12 @@ input[type="search"].search-field {
 
 	.figure-image.left {
 		float: left;
+		margin-right: 1em;
 	}
 
 	.figure-image.right {
 		float: right;
+		margin-left: 1em;
 	}
 
 	.contact-form,
