@@ -544,6 +544,10 @@ input[type="search"].search-field {
 		color: #fff;
 	}
 
+	.site-header .menu-toggle.toggled-on {
+		background: #2e2e2e;
+	}
+
 	.site-header .menu-toggle .icon {
 		font-style: normal;
 	}
