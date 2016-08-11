@@ -518,6 +518,10 @@ input[type="search"].search-field {
 		color: #fff;
 	}
 
+	.site-header-menu.toggled-on .primary-menu {
+		margin: 0 0 0 2em;
+	}
+
 	.site-header-menu.toggled-on .primary-menu > li {
 		font-weight: bold;
 	}
