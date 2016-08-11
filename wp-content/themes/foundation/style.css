@@ -642,6 +642,7 @@ input[type="search"].search-field {
 
 	section.program {
 		margin: 0 0 2em 0;
+		overflow: hidden;
 	}
 
 	.figure-image {
