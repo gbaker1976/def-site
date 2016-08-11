@@ -499,6 +499,10 @@ input[type="search"].search-field {
 		text-decoration: none;
 	}
 
+	.site-header-menu {
+		display: none;
+	}
+
 	.site-header .menu-toggle {
 		display: block;
 		float: right;
@@ -519,7 +523,7 @@ input[type="search"].search-field {
 	}
 
 	.site-header .primary-menu {
-		display: none;
+		display: block;
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
@@ -792,10 +796,6 @@ input[type="search"].search-field {
 	.site-header .site-header-menu {
 		margin: 1em 0 0 2em;
 		float: left;
-	}
-
-	.site-header .primary-menu {
-		display: block;
 	}
 
 	.site-header .primary-menu > li {
