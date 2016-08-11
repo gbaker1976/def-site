@@ -733,14 +733,6 @@ input[type="search"].search-field {
 /* 2.4 >= 700px */
 @media screen and (min-width: 43.75em) {
 
-	.site-header .menu-toggle {
-		display: none;
-	}
-
-	.site-header .menu-toggle .icon:before {
-		content: "";
-	}
-
 	.site-header .site-header-main {
 		position: relative;
 		min-height: 3em;
@@ -749,9 +741,12 @@ input[type="search"].search-field {
 		display: inline-block;
 	}
 
+	.site-header .site-branding {
+		display: block;
+	}
+
 	.site-header .site-branding,
 	.site-header .site-header-menu {
-		display: block;
 		float: left;
 	}
 
@@ -797,7 +792,16 @@ input[type="search"].search-field {
 /* 2.5 >= 900px */
 @media screen and (min-width: 56.25em) {
 
+	.site-header .menu-toggle {
+		display: none;
+	}
+
+	.site-header .menu-toggle .icon:before {
+		content: "";
+	}
+
 	.site-header .site-header-menu {
+		display: block;
 		margin: 1em 0 0 2em;
 		float: left;
 	}
