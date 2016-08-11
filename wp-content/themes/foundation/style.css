@@ -503,6 +503,10 @@ input[type="search"].search-field {
 		display: none;
 	}
 
+	.site-header-menu.toggled-on {
+		display: block;
+	}
+
 	.site-header .menu-toggle {
 		display: block;
 		float: right;
