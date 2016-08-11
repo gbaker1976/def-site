@@ -505,7 +505,8 @@ input[type="search"].search-field {
 
 	.site-header-menu.toggled-on {
 		display: block;
-		background-color: #2e2e2e;
+		background: #2e2e2e;
+		background: linear-gradient(#0e0e0e, #2e2e2e);
 		width: 100%;
 		margin: 0;
 		float: none;
@@ -527,7 +528,11 @@ input[type="search"].search-field {
 
 	.site-header-menu.toggled-on .sub-menu {
 		list-style-type: none;
+	}
 
+	.site-header-menu.toggled-on .sub-menu a {
+		font-weight: normal;
+		color: #ccc;
 	}
 
 	.site-header .menu-toggle {
