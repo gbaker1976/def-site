@@ -640,6 +640,21 @@ input[type="search"].search-field {
 		vertical-align:top;
 	}
 
+	.figure-image {
+		display: none;
+		width: 300px;
+		height: 200px;
+		background: #ccc;
+	}
+
+	.figure-image.left {
+		float: left;
+	}
+
+	.figure-image.right {
+		float: right;
+	}
+
 	.contact-form,
 	.contact-info {
 		margin-top: 2em;
@@ -763,7 +778,9 @@ input[type="search"].search-field {
 
 /* 2.3 >= 600 */
 @media screen and (min-width: 37.5em) {
-
+	.figure-image {
+		display: block;
+	}
 }
 
 /* 2.4 >= 700px */
