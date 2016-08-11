@@ -689,7 +689,7 @@ input[type="search"].search-field {
 	}
 
 	.partner-grid li {
-		margin: 0 0 2em 2em;
+		margin: 0 0 4em 4em;
 		padding: 0;
 		display: block;
 		float: left;
@@ -701,6 +701,7 @@ input[type="search"].search-field {
 	.partner-grid li img {
 		width: 100%;
 		height: auto;
+		vertical-align: middle;
 	}
 
 	/* footer */
