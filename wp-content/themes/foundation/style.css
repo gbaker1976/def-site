@@ -695,8 +695,11 @@ input[type="search"].search-field {
 		float: left;
 		width: 4em;
 		line-height: 2em;
-		background: #ddd;
-		color: #aaa;
+	}
+
+	.partner-grid li img {
+		width: 100%;
+		height: auto;
 	}
 
 	/* footer */
