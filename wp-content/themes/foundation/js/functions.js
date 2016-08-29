@@ -71,7 +71,9 @@
 	// initialize slick carousel
 	$( '[data-component="partner-banner"]' ).slick({
 		slidesToShow: 4,
-		slidesToScroll: 4
+		slidesToScroll: 4,
+		autoplay: true,
+		autoplaySpeed: 2000
 	});
 
 	// Enable menuToggle.
