@@ -70,7 +70,7 @@
 					/**
 					 * Filter the default foundation custom header sizes attribute.
 					 *
-					 * @since Twenty Sixteen 1.0
+					 * @since Foundation 1.0
 					 *
 					 * @param string $custom_header_sizes sizes attribute
 					 * for Custom Header. Default '(max-width: 709px) 85vw,

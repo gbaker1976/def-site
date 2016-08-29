@@ -44,11 +44,11 @@
 						/**
 						 * Fires before the foundation footer text for footer customization.
 						 *
-						 * @since Twenty Sixteen 1.0
+						 * @since Foundation 1.0
 						 */
 						do_action( 'foundation_credits' );
 					?>
-					
+
 				</div><!-- .site-info -->
 			</div>
 		</footer><!-- .site-footer -->
