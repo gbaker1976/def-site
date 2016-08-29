@@ -68,6 +68,12 @@
 	siteNavigation   = masthead.find( '#site-navigation' );
 	socialNavigation = masthead.find( '#social-navigation' );
 
+	// initialize slick carousel
+	$( '[data-component="partner-banner"]' ).slick({
+		slidesToShow: 4,
+		slidesToScroll: 4
+	});
+
 	// Enable menuToggle.
 	( function() {
 
