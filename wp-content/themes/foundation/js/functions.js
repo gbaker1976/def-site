@@ -70,10 +70,10 @@
 
 	// initialize slick carousel
 	$( '[data-component="partner-banner"]' ).slick({
-		slidesToShow: 4,
-		slidesToScroll: 4,
+		slidesToShow: 5,
+		slidesToScroll: 5,
 		autoplay: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 5000,
 		arrows: false
 	});
 
