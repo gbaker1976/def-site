@@ -234,6 +234,8 @@ function foundation_scripts() {
 
 	// Theme stylesheet.
 	wp_enqueue_style( 'foundation-style', get_stylesheet_uri() );
+	
+	wp_enqueue_style( 'slick-style', '//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' );
 
 	// Load the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'foundation-ie', get_template_directory_uri() . '/css/ie.css', array( 'foundation-style' ), '20160412' );
