@@ -261,6 +261,8 @@ function foundation_scripts() {
 		wp_enqueue_script( 'foundation-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20160412' );
 	}
 
+	wp_enqueue_script( 'slick-script', '//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js', array( 'jquery' ), '20160412', true );
+
 	wp_enqueue_script( 'foundation-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20160412', true );
 
 	wp_localize_script( 'foundation-script', 'screenReaderText', array(
