@@ -491,7 +491,7 @@ input[type="search"].search-field {
 	}
 
 	.partner-banner img {
-		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
 	}
 
 	.screen-reader-text{
