@@ -28,14 +28,14 @@ get_header(); ?>
 			<div data-component="partner-banner" class="partner-banner">
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/eli_lilly.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/duke_realty.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/businessfurniture.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/ctc.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/cicf.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/businessfurniture.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/imi.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/lennox.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/navsea.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/pwc.png"></div>
 				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/sfmc.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/pwc.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/navsea.png"></div>
 			</div>
 			<div class="billboard-trailer">
 				<h2>Programs for At-Risk Central Indiana Students in Grades 8-12</h2>
