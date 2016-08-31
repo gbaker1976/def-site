@@ -486,11 +486,12 @@ input[type="search"].search-field {
 
 	.partner-banner {
 		height: 100px;
+		background: #ccc;
+		padding: 12px 0;
 	}
 
 	.partner-banner img {
-		height: 100%;
-		width: auto;
+		filter: grayscale(100%);
 	}
 
 	.screen-reader-text{
