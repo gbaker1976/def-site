@@ -492,6 +492,7 @@ input[type="search"].search-field {
 
 	.partner-banner img {
 		-webkit-filter: grayscale(100%);
+		opacity: 0.5;
 	}
 
 	.screen-reader-text{
