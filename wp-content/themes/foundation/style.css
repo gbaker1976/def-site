@@ -486,10 +486,16 @@ input[type="search"].search-field {
 
 	.partner-banner {
 		height: 100px;
-		padding: 12px 0;
+		padding: 25px 0;
+	}
+
+	.partner-banner .slot {
+		height: 50px;
 	}
 
 	.partner-banner img {
+		height: 100%;
+		width: auto;
 		-webkit-filter: grayscale(100%);
 		opacity: 0.5;
 	}
