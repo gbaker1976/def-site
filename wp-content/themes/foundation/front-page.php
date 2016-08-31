@@ -26,26 +26,16 @@ get_header(); ?>
 				<h1 class="billboard-title">Where Learning Becomes Life</h1>
             </div>
 			<div data-component="partner-banner" class="partner-banner">
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-				<div class="slot">Foo</div>
-
-				<!-- <div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/Eli_Lilly.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/duke-realty.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/CTC.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/CICF.jpg"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/businessfurniture.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/IMI.jpg"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/Lennox.jpg"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/NAVSEA.jpg"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/PWC.png"></div>
-				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/sfmc.png"></div> -->
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/eli_lilly.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/duke_realty.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/ctc.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/cicf.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/businessfurniture.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/imi.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/lennox.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/navsea.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/pwc.png"></div>
+				<div class="slot"><img src="http://murmuring-eyrie-37592.herokuapp.com/wp-content/themes/foundation/files/partners/small/sfmc.png"></div>
 			</div>
 			<div class="billboard-trailer">
 				<h2>Programs for At-Risk Central Indiana Students in Grades 8-12</h2>
